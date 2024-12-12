@@ -1,0 +1,103 @@
+.Contact-section{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    border: 0.5px solid gray;
+    padding: 1rem 0;
+}
+.contact-left{
+    width: 33%;
+    height: 85vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: rgba(241, 239, 239, 0.676);
+}
+.contact-left h1{
+    font-size: 30px;
+    font-weight: 50;
+}
+.contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid gray;
+    padding: 1rem 0;
+}
+.contact-box i{
+    color: teal;
+    letter-spacing: 1.5px;
+}
+.contact-box h2{
+    color: goldenrod;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.contact-box p{
+    text-align: right;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(31, 125, 125);
+
+}
+.contact-right{
+    width: 67%;
+    height: 85vh;
+    background-image: url(../../assets/bg-00003.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-form{
+    float: right;
+    width: 430px;
+    min-height: 450px;
+    padding: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #143642;
+}
+.contact-form h2{
+    text-align: center;
+}
+.contact-form input,textarea{
+    width: 100%;
+    border: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    text-decoration: dotted;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+.contact-form textarea{
+    max-width: 100%;
+}
+.contact-form button{
+    width: 120px;
+    height: 50px;
+    background-color: #A97959;
+    border: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+/*  */
+
+.Map-section{
+    width: 100%;
+    height: 600px;
+    background-color: #A97959;
+}
+.Map-section iframe{
+    width: 100%;
+    height: 100%;
+}
+
+form:focus, input:focus, button:focus, textarea:focus {
+    outline: none;
+}

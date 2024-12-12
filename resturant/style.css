@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+}
+/* Header */
+body{
+    padding: 0 15px 15px 15px;
+    margin: auto;
+}
+.Header{
+    width: 98%;
+    margin: auto;
+    padding: 20px 20px 20px 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head_item{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+.head_logo{
+    width: 150px;
+    height: 80px;
+    margin-right: 10rem;
+}
+.head_link{
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding: 20px 0; 
+    color: black;
+}
+.head_link:hover{
+    color: gray;
+}
+.head_reserva{
+    background-color: #A97959;
+    padding: 18px 30px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border: none;
+}
+
+/* Footer */
+.Foot{
+    width: 100%;
+    background-color: white;
+}
+.FootMenu{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+.FootItem{
+    display: flex;
+    gap: 0.5rem;
+}
+.FootLink{
+    font-size: 14px;
+    padding: 35px 25px;
+    color: rgb(7, 102, 102);
+    font-family: "Noto Sans", sans-serif;
+}
+.FootLink:hover{
+    color: gold;
+}
+.FootIcon{
+    display: flex;
+    gap: 1rem;
+    color:#cdb116;
+    font-size: 18px;
+}
+.FootCopy{
+    border-top: 1px solid gray;
+    color: rgb(7, 126, 126);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+}
+.FootCopy p{
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+/*  benner */
+.all-benner{
+    width: 100%;
+    height: 450px;
+    background-image: url(./src/assets/bg-00011.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    text-align: center;
+    padding-top: 9rem;
+}
+.all-benner h3{
+    font-family: "Alex Brush", cursive;
+    font-weight: 50;
+    font-size: 40px;
+    color: goldenrod;
+}
+.all-benner h1{
+    font-size: 9rem;
+    color: #121e3c;
+    font-weight: 100;
+    letter-spacing: 3rem;
+}
+
+/* reservation */
+
+.Background-pic{
+    width: 100%;
+    background-image: url(./src/assets/bg-0008.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Reservation_section{
+    width: 700px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.Reservation_section h3{
+    font-family: "Alex Brush", cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: #f9d81b;
+}
+.Reservation_section h1{
+    font-weight: 100;
+    font-size: 4rem;
+    letter-spacing: 10px;
+}
+.Res-form{
+    display: flex;
+    flex-direction: column;
+}
+.Res-form input{
+    padding: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 500px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+.Res-btn{
+    padding: 15px 35px;
+    border: none;
+    font-size: 20px;
+    background-color: #A97959;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
