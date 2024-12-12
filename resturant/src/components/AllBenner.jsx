@@ -5,7 +5,7 @@ const AllBenner =()=>{
         <div className="all-benner">
             <div>
                 <h3>Check out our</h3>
-                <h1>MENU</h1>
+                <h1>MENU bar</h1>
             </div>
         </div>
     )
