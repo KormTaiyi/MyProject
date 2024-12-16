@@ -2,7 +2,7 @@ import { BiSearchAlt2,BiCartAlt} from "react-icons/bi";
 import logo from "../assets/logo.png"
 const HeaderCom=()=>{
     return(
-        <div className="w-full h-20 bg-white flex items-center justify-between px-6">
+        <div className="w-full h-20 bg-white flex items-center justify-between">
             <ul className="flex items-center justify-center gap-8">
                  <img src={logo} alt="logo" className="h-5/6 w-12"/>
                 <li> 

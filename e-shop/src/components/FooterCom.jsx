@@ -2,55 +2,58 @@ import { SiFacebook , SiInstagram , SiTelegram} from "react-icons/si";
 import logo from "../assets/logo.png"
 const FooterCom=()=>{
     return(
-        <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800">
+        <footer className=" bg-white sm:p-6 dark:bg-gray-800">
             <div className="mx-auto max-w-screen-xl">
                 <div className="md:flex md:justify-between">
-                    <div className="flex flex-col mb-6 md:mb-0">
-                        <a href="/" className="flex items-center">
+                    <div className="flex flex-col  w-1/3 mb-6 md:mb-0">
+                        <a href="/" className="flex items-center mb-4">
                             <img src={logo} className="h-16 w-16" alt="" />
                         </a>
-                        {/* <p className="text-sm w-1/3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eos esse, voluptate dolorum repellat blanditiis. Explicabo delectus quidem reprehenderit cumque natus odit placeat perspiciatis harum, eos rem necessitatibus corporis aut.</p> */}
+                        <p className="text-sm text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eos esse, voluptate dolorum repellat blanditiis. Explicabo delectus quidem reprehenderit cumque natus odit placeat perspiciatis harum, eos rem necessitatibus corporis aut.</p>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div className="w-2/4 grid grid-cols-2 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                            <h2 className="mb-6 text-2xl font-semibold text-gray-900 dark:text-white">Link</h2>
                             <ul className="text-gray-600 dark:text-gray-400">
                                 <li className="mb-4">
-                                    <a href="https://flowbite.com" className="hover:underline">Flowbite</a>
+                                    <a href="/" className="hover:underline">Home</a>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="https://flowbite.com" className="hover:underline">Flowbite</a>
+                                    <a href="/shop" className="hover:underline">Shop</a>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="https://flowbite.com" className="hover:underline">Flowbite</a>
+                                    <a href="" className="hover:underline">About us</a>
+                                </li>
+                                <li className="mb-4">
+                                    <a href="/contact" className="hover:underline">Contact us</a>
+                                </li>
+                                {/* <li className="mb-4">
+                                    <a href="" className="hover:underline"></a>
+                                </li> */}
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 className="mb-6 text-2xl font-semibold text-gray-900  dark:text-white">Follow us</h2>
+                            <ul className="text-gray-600 dark:text-gray-400">
+                                <li className="mb-4">
+                                    <a href="https://github.com/" className="hover:underline ">Github</a>
+                                </li>
+                                <li className="mb-4">
+                                    <a href="https://github.com/" className="hover:underline ">Github</a>
+                                </li>
+                                <li className="mb-4">
+                                    <a href="https://github.com/" className="hover:underline ">Github</a>
+                                </li>
+                                <li className="mb-4">
+                                    <a href="https://github.com/" className="hover:underline ">Github</a>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                            <h2 className="mb-6 text-2xl font-semibold text-gray-900 dark:text-white">Address</h2>
                             <ul className="text-gray-600 dark:text-gray-400">
                                 <li className="mb-4">
-                                    <a href="https://github.com/" className="hover:underline ">Github</a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="https://github.com/" className="hover:underline ">Github</a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="https://github.com/" className="hover:underline ">Github</a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="https://github.com/" className="hover:underline ">Github</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                            <ul className="text-gray-600 dark:text-gray-400">
-                                <li className="mb-4">
-                                    <a href="#" className="hover:underline">Privacy Policy</a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="#" className="hover:underline">Privacy Policy</a>
+                                    <p>2011 st , Kok Kleang , SenSok , Phnom Penh </p>
                                 </li>
                             </ul>
                         </div>
