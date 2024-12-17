@@ -7,12 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#f42c37",
+        primary: "#06BCF0",
         secondary:"#f42c37",
         brandYellow:"#fdc62e",
         brandGreen:"#2dcc6f",
         brandBlue:"#1376f4",
-        brandWhite:"#eeeeee"
       }
     },
   },
