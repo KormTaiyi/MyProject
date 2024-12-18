@@ -1,7 +1,7 @@
 const ErrorPage=()=>{
     return(
-        <div className="grid ">
-            <h1 className="text-3xl text-center text-red-600 align-baseline">404-Page Not Found</h1>
+        <div className="grid place-content-center h-screen">
+            <h1 className="text-3xl text-red-600">404-Page Not Found</h1>
         </div>
     )
 }

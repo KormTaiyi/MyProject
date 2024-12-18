@@ -4,22 +4,22 @@ import { Link } from "react-router";
 const FooterCom=()=>{
     return(
         <footer className="w-[88%] m-auto pt-4">
-            <div className="flex items-center justify-evenly px-8 py-4">
+            <div className="flex items-center justify-evenly px-8 py-4 border-b-2 border-white">
                 <div >
                     <img src={logo} alt="" className="w-[70px]"/>
-                    <p className="w-[40%]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quod quae nobis adipisci ipsam veritatis quis hic expedita, beatae repellat, iste voluptates inventore a possimus, repellendus id tempora doloremque sapiente.</p>
+                    <p className="w-[40%]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspeates inventore a possimus, repellendus id tempora doloremque sapiente.</p>
                 </div>
                 <div className="flex gap-4 justify-between">
                     <ul type="none" className="inline-block">
                         <h1 className="py-6 text-3xl mr-8">Contact</h1>
                         <li className="mb-3">
-                            <a href="" className="text-black hover:underline">Facebook</a>
+                            <a href="https://www.facebook.com/korm.taiyi.5" target="blank" className="text-black hover:underline">Facebook</a>
                         </li>
                         <li className="mb-3">
-                            <a href="" className=" text-black hover:underline">Telegram</a>
+                            <a href="" target="blank" className=" text-black hover:underline">Telegram</a>
                         </li>
                         <li className="mb-3">
-                            <a href="" className=" text-black hover:underline">Instagram</a>
+                            <a href="" target="blank" className=" text-black hover:underline">Instagram</a>
                         </li>
                     </ul>
                     <ul type="none">
@@ -46,7 +46,6 @@ const FooterCom=()=>{
                     </ul>
                 </div>
             </div>
-            <hr className="bg-primary text-xl"/>
             <div className="min-h-[100px] flex items-center justify-between px-4">
                 <p> &copy; {new Date().getFullYear()} E-Shop</p>
                 <img src={paymentImg} alt="" />

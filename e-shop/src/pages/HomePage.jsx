@@ -9,8 +9,10 @@ import HomeShowProduct from "../components/Home/HomeShowProduct"
 const HomePage=()=>{
     return(
         <div>
+            <div className="bg-gray-300">
+                <HeaderCom />
+            </div>
             <div className="w-[88%] m-auto">
-                <HeaderCom/>
                 <HeroSection/>
                 <ProductCategory/>
                 <ChooseUs/>
@@ -18,7 +20,7 @@ const HomePage=()=>{
                 <HomeShowProduct/>
                 <BennerSection/>
             </div>
-            <div className="bg-gray-200">
+            <div className="bg-gray-300">
                 <FooterCom />
             </div>
         </div>
