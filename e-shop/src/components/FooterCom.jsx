@@ -4,7 +4,7 @@ import { Link } from "react-router";
 const FooterCom=()=>{
     return(
         <footer className="w-[88%] m-auto pt-4">
-            <div className="flex items-center justify-evenly px-8 py-4 border-b-2 border-white">
+            <div className="flex items-center justify-evenly py-4 border-b-2 border-white">
                 <div >
                     <img src={logo} alt="" className="w-[70px]"/>
                     <p className="w-[40%]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspeates inventore a possimus, repellendus id tempora doloremque sapiente.</p>
